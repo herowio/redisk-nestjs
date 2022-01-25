@@ -1,6 +1,6 @@
 {
   "name": "herow-redisk-nestjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NestJS module for Redisk.",
   "main": "index.js",
   "scripts": {
