@@ -1,5 +1,5 @@
 import { Module, DynamicModule } from '@nestjs/common';
-import { Redisk } from 'redisk';
+import { Redisk } from 'herow-redisk';
 import { RediskOptions } from './interfaces';
 
 @Module({
