@@ -1,6 +1,6 @@
 {
-  "name": "herow-redisk-nestjs",
-  "version": "1.0.6",
+  "name": "herowio-redisk-nestjs",
+  "version": "3.0.0",
   "description": "NestJS module for Redisk.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@nestjs/common": "6.10.14",
-    "herow-redisk": "^2.0.0"
+    "herow-redisk": "^3.0.0"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/ArkerLabs/redisk-nestjs/issues"
   },
-  "homepage": "https://github.com/ArkerLabs/redisk-nestjs#readme"
+  "homepage": "https://github.com/ArkerLabs/redisk-nestjs#readme",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
 }

@@ -1,6 +1,7 @@
 import { Module, DynamicModule } from '@nestjs/common';
 import { Redisk } from 'herow-redisk';
-import { RediskOptions } from './interfaces';
+import * as Redis from "ioredis";
+
 
 @Module({
     providers: [
@@ -11,7 +12,7 @@ import { RediskOptions } from './interfaces';
     ],
 })
 export class RediskModule {
-    static forRoot(options: RediskOptions): DynamicModule {
+    static forRoot(options: Redis.RedisOptions): DynamicModule {
         return {
           module: RediskModule,
           global: true,
